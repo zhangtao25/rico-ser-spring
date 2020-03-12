@@ -1,12 +1,12 @@
 server:
-  port: 8000
+  port: 3000
 
 spring:
   datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://114.55.145.3:3307/rico?characterEncoding=utf-8&useSSL=false
     username: root
     password: wjyy26303
-    driver-class-name: com.mysql.jdbc.Driver
 
   jpa:
 #    hibernate:

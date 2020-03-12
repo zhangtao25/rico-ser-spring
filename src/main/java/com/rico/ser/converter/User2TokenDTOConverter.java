@@ -11,7 +11,7 @@ public class User2TokenDTOConverter {
     public static TokenDTO convert(User user) {
 
         TokenDTO tokenDTO = new TokenDTO();
-        tokenDTO.setUserToken(user.getUserToken());
+        tokenDTO.setToken(user.getUserToken());
         return tokenDTO;
     }
 }

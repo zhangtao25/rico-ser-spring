@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 public class JobController {
 
 
-    @GetMapping("/auth")
+    @GetMapping("/test")
     public ResultVO detail (){
         return ResultVOUtil.success("sssss");
     }
